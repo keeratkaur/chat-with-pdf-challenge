@@ -23,7 +23,7 @@ const features = [
   {
     name: "Intelligent AI",
     description: "Utilize advanced AI algorithms to extract insights and answers from your documents.",
-    icon: <BrainCogIcon />
+    icon: BrainCogIcon
   },
   {
     name: "Secure and Reliable",
