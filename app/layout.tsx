@@ -12,7 +12,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen h-screen overflow-hidden flex flex-col`}>
+      <body 
+        className={`${inter.className} min-h-screen h-screen flex flex-col`}
+        suppressHydrationWarning
+      >
         <ClerkWrapper>
           {/* <Header/> */}
           <main>{children}</main>
